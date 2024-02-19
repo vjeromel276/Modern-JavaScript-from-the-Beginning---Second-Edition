@@ -1,8 +1,8 @@
 // Log number
-console.log(100);
+console.log(typeof 100);
 
 // Log string
-console.log('Hello World');
+console.log('Hello World'.length);
 
 // Log multiple values
 console.log(20, 'Hello', true);

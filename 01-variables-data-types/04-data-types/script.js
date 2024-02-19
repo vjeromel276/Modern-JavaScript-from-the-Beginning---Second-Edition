@@ -37,6 +37,12 @@ const output = sayHello;
 
 console.log(output, typeof output);
 
+const obj ={
+  name: 'John',
+  age: 30,
+  weight: 200
+}
+console.dir(obj);
 // More info on why typeof null == object
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null
 
