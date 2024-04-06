@@ -30,7 +30,7 @@ const person = {
 };
 
 function sayHello() {
-  console.log('Hello');
+  console.log(person);
 }
 
 const output = sayHello;
@@ -42,7 +42,12 @@ const obj ={
   age: 30,
   weight: 200
 }
-console.dir(obj);
+// console.dir(obj);
+
+let btn = document.getElementsByName('btn');
+let entries=btn.entries();
+console.log(entries);
+
 // More info on why typeof null == object
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null
 
